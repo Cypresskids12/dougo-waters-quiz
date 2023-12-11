@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+   <div class="question-box">
+     <h1 class="question-text">
+        What is the lagest land Animal?
+     </h1>
+     <img src="./African-savanna-elephant.webp" alt="" class="question-img">
+     <div class="answers">
+        <button class="answer" onclick="correct(this)">Elephant</button>
+        <button class="answer" onclick="incorrect(this)">Lion</button>
+        <button class="answer" onclick="incorrect(this)">Horse</button>
+        <button class="answer" onclick="incorrect(this)">Cheetah</button>
+     </div>
+   </div> 
+   <div class="question-box">
+      <h1 class="question-text">
+         A baby oyster is known as what?
+      </h1>
+      <img src="./spat.jfif" alt="" class="question-img">
+      <div class="answers">
+         <button class="answer" onclick="incorrect(this)">Sap</button>
+         <button class="answer" onclick="incorrect(this)">Spit</button>
+         <button class="answer" onclick="correct(this)">Spat</button>
+         <button class="answer" onclick="incorrect(this)">Splat</button>
+      </div>
+    </div>
+    <div class="question-box">
+      <h1 class="question-text">
+         what is the biggest lizard?
+      </h1>
+      <img src="./chameleon.jfif" alt="" class="question-img">
+      <div class="answers">
+         <button class="answer" onclick="incorrect(this)">Thorny Dragon</button>
+         <button class="answer" onclick="incorrect(this)">Chameleon</button>
+         <button class="answer" onclick="correct(this)">Komodo Dragon</button>
+         <button class="answer" onclick="incorrect(this)">Flying Dragon</button>
+      </div>
+    </div> 
+    <div class="question-box">
+      <h1 class="question-text">
+         Though they sound happy, what animal's "laugh" is a reaction to being threatened?
+      </h1>
+      <img src="./jumping-zebra.jpg" alt="" class="question-img">
+      <div class="answers">
+         <button class="answer" onclick="incorrect(this)">Zebra</button>
+         <button class="answer" onclick="incorrect(this)">Cheetah</button>
+         <button class="answer" onclick="incorrect(this)">Lion</button>
+         <button class="answer" onclick="correct(this)">Hyena</button>
+      </div>
+    </div> 
+    <div class="question-box">
+      <h1 class="question-text">
+         Capable of exceeding 186 miles per hour, what is the fastest creature in the animal kingdom?
+      </h1>
+      <img src="./lion.jfif" alt="" class="question-img">
+      <div class="answers">
+         <button class="answer" onclick="incorrect(this)">Cheetah</button>
+         <button class="answer" onclick="correct(this)">peregrine falcon</button>
+         <button class="answer" onclick="incorrect(this)">Horse</button>
+         <button class="answer" onclick="incorrect(this)">lion</button>
+      </div>
+    </div>
+    <div class="question-box">
+      <h1 class="question-text">
+         Known for its intelligence, which dog breed has been found capable of understanding more than a thousand words?
+      </h1>
+      <img src="./dog.jfif" alt="" class="question-img">
+      <div class="answers">
+         <button class="answer" onclick="incorrect(this)">French Bulldogs</button>
+         <button class="answer" onclick="incorrect(this)">German Sheperd</button>
+         <button class="answer" onclick="correct(this)">Border Collie</button>
+         <button class="answer" onclick="incorrect(this)">Dashshund</button>
+      </div>
+    </div> 
+    <div class="question-box">
+      <h1 class="question-text">
+         Which animal species can live in extremes of both heat and cold, from −20 °F to 120 °F?
+      </h1>
+      <img src="./polar bear.jfif" alt="" class="question-img">
+      <div class="answers">
+         <button class="answer" onclick="incorrect(this)">Chuckwalla iguanas</button>
+         <button class="answer" onclick="correct(this)">Bactrian camal</button>
+         <button class="answer" onclick="incorrect(this)">polar bear</button>
+         <button class="answer" onclick="incorrect(this)">komodo Dragon</button>
+      </div>
+    </div> 
+    <div class="question-box">
+      <h1 class="question-text">
+         The tiniest animal with a backbone is a what?
+      </h1>
+      <img src="./frog.jfif" alt="" class="question-img">
+      <div class="answers">
+         <button class="answer" onclick="incorrect(this)">bird</button>
+         <button class="answer" onclick="incorrect(this)">Frog</button>
+         <button class="answer" onclick="correct(this)">fish</button>
+         <button class="answer" onclick="incorrect(this)">cat</button>
+      </div>
+    </div> 
+    <div class="question-box">
+      <h1 class="question-text">
+         Growing up to 59 feet (18 meters) long, which is the world’s largest living fish?
+      </h1>
+      <img src="./whALE SHARK.jpg" alt="" class="question-img">
+      <div class="answers">
+         <button class="answer" onclick="incorrect(this)">baracuda</button>
+         <button class="answer" onclick="incorrect(this)">sail fish</button>
+         <button class="answer" onclick="correct(this)">whale shark</button>
+         <button class="answer" onclick="incorrect(this)">Great white shark</button>
+      </div>
+   </div>
+   <div class="question-box">
+      <h1 class="question-text">
+         Which of these “fish” is actually a fish?
+      </h1>
+      <img src="./jelly fish.jfif" alt="" class="question-img">
+      <div class="answers">
+         <button class="answer" onclick="incorrect(this)">starfish</button>
+         <button class="answer" onclick="incorrect(this)">jellie fish</button>
+         <button class="answer" onclick="correct(this)">sword fish</button>
+         <button class="answer" onclick="incorrect(this)">Cray fish</button>
+      </div>
+      <button class="submit" onclick="calculateScore(this)">Submit</button>
+   </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+Topic: Animals
+
+Question 1: What is the lagest land Animal?
+Elephant <- | lion | Horse | Cheetah
+
+Question 2: What is the fastest animal in the world
+peregrine falcon <- | Vulture | cheetah  | dolphin |
+
+Question 3: what is the biggest lizard
+Thorny Dragon| Chameleon | Komodo Dragon <- | Flying Dragon
+
+Question 4: Though they sound happy, what animal's "laugh" is a reaction to being threatened?
+Hyena <- | Lion | Cheetah | Zebra
+
+Question 5: Capable of exceeding 186 miles per hour, what is the fastest creature in the animal kingdom?
+Cheetah| peregrine falcon <- | Horse | lion
+
+Question 6: Known for its intelligence, which dog breed has been found capable of understanding more than a thousand words?
+Border Collie <- | German Sheperd | French Bulldogs | Dashshund
+
+Question 7: Which animal species can live in extremes of both heat and cold, from −20 °F to 120 °F?
+Chuckwalla iguanas | Bactrian camal <- | polar bear | komodo Dragon
+
+Question 8: The tiniest animal with a backbone is a what?
+Frog <- | bird | fish | cat |
+
+Question 9: Growing up to 59 feet (18 meters) long, which is the world’s largest living fish?
+sail fish | whale shark <- | Great white shark | baracuda
+
+Question 10: Which of these “fish” is actually a fish?
+sword fish <- | jellie fish | starfish | Cray fish
